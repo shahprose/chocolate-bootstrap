@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum of Chocolate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <!-- testing Bootstrap -->
+</head>
+<body>
+    <nav id="mainNav" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">CHOCOLATE</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">TICKETS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid px-0 heading">
+        <div class="row align-items-center">
+            <div class="col-lg-6 text-center">
+                <div class="text-white text-center d-none d-lg-block">
+                    <h2>MUSEUM<span>/</span>OF<span>/</span>CHOCOLATE</h2>
+                    <h2>MUSEUM<span>/</span>OF<span>/</span>CHOCOLATE</h2>
+                    <h2>MUSEUM<span>/</span>OF<span>/</span>CHOCOLATE</h2>
+                    <h2>MUSEUM<span>/</span>OF<span>/</span>CHOCOLATE</h2>
+                    <h2>MUSEUM<span>/</span>OF<span>/</span>CHOCOLATE</h2>
+                    <h2>MUSEUM<span>/</span>OF<span>/</span>CHOCOLATE</h2>
+                    <h2>MUSEUM<span>/</span>OF<span>/</span>CHOCOLATE</h2>
+                </div>
+            </div>
+            <div class="col-lg-6 px-0">
+                <img class="img-fluid" src="imgs/box_of_choc.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 px-0 order-2 order-md-1">
+                <img src="imgs/bar.jpeg" class="img-fluid px-0" alt="">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb">
+                        <h2>MUSEUM OF CHOCOLATE</h2>
+                        <img src="imgs/cacao.png" alt="" height="100 width="100" class="d-none d-lg-inline">
+                        <p class="lead">The history of chocolate can be traced to the ancient Mayans, and even earlier to the ancient Olmecs of southern Mexico. Throughout much of history, chocolate was a revered but bitter beverage, not a sweet, edible treat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb">
+                        <h2>MUSEUM OF CHOCOLATE</h2>
+                        <img src="imgs/cacao.png" alt="" height="100 width="100" class="d-none d-lg-inline">
+                        <p class="lead">Chocolate is made from the fruit of cacao trees, which are native to Central and South America. The fruits are called pods and each pod contains around 40 cacao beans. The beans are dried and roasted to create cocoa beans.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 px-0">
+                <img src="imgs/sundae.jpeg" class="img-fluid px-0" alt="">
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 px-0 order-2 order-md-1">
+                <img src="imgs/brownies.jpeg" class="img-fluid px-0" alt="">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb">
+                        <h2>MUSEUM OF CHOCOLATE</h2>
+                        <img src="imgs/cacao.png" alt="" height="100 width="100" class="d-none d-lg-inline">
+                        <p class="lead">In 1879, another Swiss chocolatier, Rudolf Lindt, invented the conch machine which mixed and aerated chocolate giving it a smooth, melt-in-your-mouth consistency that blended well with other ingredients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(document).scroll(function() {
+                let $nav = $("#mainNav");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+</html>
